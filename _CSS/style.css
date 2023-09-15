@@ -1,0 +1,44 @@
+nav#menu ul{
+    text-transform: uppercase; /*Transforma texto em caixa alta*/
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+nav#menu{
+    display: block;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(46, 158, 223);
+    padding: 15px;  
+}
+nav#menu h1{
+    display: none;
+}
+body{
+    background-color: rgb(46, 158, 223);
+    margin: 0px; /*Coloca a margem em zero pixels */
+}
+header{
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    position: relative;
+}
+nav#menu a:link{
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+nav#menu a:visited{
+    color: black;
+}
+nav#menu a:hover{
+    color: aliceblue;
+    transition: all 0.8s ease;
+}
+img{
+    max-width: 300px;
+}
